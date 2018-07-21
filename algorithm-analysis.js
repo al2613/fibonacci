@@ -39,7 +39,7 @@ var fibonacci = (num)=>{
 
 // algorithm 3 - optimizing recursion method using memoization if we're going to call the
 // same function multiple times. We can essentially cache previous results
-// if the data exists, we can simply return the value without executin the entire function
+// if the data exists, we can simply return the value without executing the entire function
 // demonstration of using cache to make runtime close to O(n) which is faster
 
 var cache = {};
