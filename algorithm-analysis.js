@@ -21,7 +21,7 @@ var fibonacci = (num)=>{
 // uncomment to test: console.log(fibonacci(4));
 
 // algorithm 2 - recursion
-// time complexity O(n^2) - not the fastest algorithm as it takes exponential
+// time complexity O(2^n) - not the fastest algorithm as it takes exponential
 // time to go through the recursion tree and calculate t(n-1) & t(n-2)
 // each recursive call contributes two new recursive calls
 // this algorithm works well when n is small but performance will degrade as n increases
